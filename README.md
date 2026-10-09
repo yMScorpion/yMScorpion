@@ -1,8 +1,8 @@
-<a href="https://isaacvaleriano.netlify.app/"><img src="./assets/builder-banner.svg" width="960" alt="Behind every line of code, there is a builder. Isaac Valeriano — Back-End Software Engineer · Applied AI & Cloud"></a>
+<a href="https://isaacvaleriano.netlify.app/"><picture><source media="(max-width: 600px)" srcset="./assets/builder-banner-mobile.svg"><img src="./assets/builder-banner.svg" width="960" alt="Behind every line of code, there is a builder. Isaac Valeriano — Back-End Software Engineer · Applied AI & Cloud"></picture></a>
 
 <p align="center"><a href="https://isaacvaleriano.netlify.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/isaacvaleriano/">LinkedIn</a> · <a href="https://isaacvaleriano.netlify.app/resume-en.pdf">Résumé</a> · <a href="mailto:isaac119eu@gmail.com">Email</a></p>
 
-<img src="./assets/builder-identity.svg" width="960" alt="ASCII portrait of Isaac. Focus: Back-End, Applied AI and Cloud. Core: Go, Python, PostgreSQL. Professional experience: DIT/IFAL. Studying Economics and Data Science. Based in Brazil, open to 100% remote work; advanced English.">
+<picture><source media="(max-width: 600px)" srcset="./assets/builder-identity-mobile.svg"><img src="./assets/builder-identity.svg" width="960" alt="ASCII portrait of Isaac. Focus: Back-End, Applied AI and Cloud. Core: Go, Python, PostgreSQL. Professional experience: DIT/IFAL. Studying Economics and Data Science. Based in Brazil, open to 100% remote work; advanced English."></picture>
 
 ### `isaac@builders-world ~ $ whoami`
 
@@ -68,8 +68,8 @@ Contributed to a REST API using **Go, Echo, GORM and PostgreSQL**. Work included
 
 ### `05 / learning foundations`
 
-**UFAL** — Bachelor’s degree in Economics, in progress · 2026–2030 expected.  
-**Instituto Infnet** — Data Science degree, in progress · 2026–2028 expected.  
+**UFAL** — Bachelor’s degree in Economics, in progress · 2026–2030 expected.<br>
+**Instituto Infnet** — Data Science degree, in progress · 2026–2028 expected.<br>
 **Languages** — Portuguese; advanced English.
 
 ### `06 / construction activity`

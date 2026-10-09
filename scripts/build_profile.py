@@ -18,6 +18,9 @@ def banner():
     body+='<path class="draw" d="M625 257L694 196L770 228L880 143L808 103L694 196V107L766 59L880 103V143M694 107L770 145L880 103M770 145V228" fill="none" stroke="#a3e635" stroke-width="1.5"/>'
     body+='<g class="reveal">'+text(38,110,'Behind every line of code,',35)+text(38,157,'there is a builder.',42,LIME)+text(38,214,'ISAAC VALERIANO',15,FG,'mono')+text(38,248,'Back-End Software Engineer · Applied AI & Cloud',15,MUTED)+'</g>'
     svg('builder-banner.svg',960,300,body);svg('builder-banner-static.svg',960,300,body,False)
+    mobile=text(25,35,'iv_ / THE BUILDER',15,LIME,'mono')
+    mobile+='<g class="reveal">'+text(25,105,'Behind every line',32)+text(25,149,'of code, there',32)+text(25,193,'is a builder.',38,LIME)+text(25,250,'ISAAC VALERIANO',14,FG,'mono')+text(25,278,'Back-End · Applied AI · Cloud',15,MUTED)+'</g>'
+    svg('builder-banner-mobile.svg',480,310,mobile)
 def identity(photo):
     from PIL import Image, ImageOps, ImageEnhance
     im=Image.open(photo).convert('RGB')
@@ -39,6 +42,13 @@ def identity(photo):
         body+=f'<g class="reveal" style="animation-delay:{.25+i*.1}s">'+text(470,116+i*33,k,12,MUTED,'mono')+text(577,116+i*33,v,13,FG,'mono')+'</g>'
     body+=text(470,382,'BUILD / TEST / UNDERSTAND / EVOLVE',10,LIME,'mono')
     svg('builder-identity.svg',960,420,body);svg('builder-identity-static.svg',960,420,body,False)
+    # Portrait above the info card on narrow screens; no tiny desktop text.
+    import re
+    portrait=body.split('<path d="M430')[0]
+    mobile=portrait+'<path d="M26 407H454" stroke="#334032"/>'+text(26,447,'isaac@builders-world',18,LIME,'mono')
+    for i,(k,v) in enumerate(rows):
+        mobile+=text(26,484+i*31,k,11,MUTED,'mono')+text(132,484+i*31,v,12,FG,'mono')
+    svg('builder-identity-mobile.svg',480,710,mobile)
 def cards():
     cards=[('01','STRUCTURE','EduRepo','Knowledge, versioned and traceable.','Next.js · TypeScript · PostgreSQL'),('02','INTELLIGENCE','StratHUB','Documents into validated specifications.','Python · FastAPI · LLMs · JSON Schema'),('03','SYSTEMS','Argus / MERCURY','Events, state and deterministic replay.','Rust · WebSocket · Order books'),('04','INTEGRATION','AIBE','Task routing and agent coordination.','Python · FastAPI · SQLAlchemy')]
     for n,label,name,desc,stack in cards:
