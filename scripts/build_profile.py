@@ -50,7 +50,7 @@ def identity(photo):
         mobile+=text(26,484+i*31,k,11,MUTED,'mono')+text(132,484+i*31,v,12,FG,'mono')
     svg('builder-identity-mobile.svg',480,710,mobile)
 def cards():
-    cards=[('01','STRUCTURE','EduRepo','Knowledge, versioned and traceable.','Next.js · TypeScript · PostgreSQL'),('02','INTELLIGENCE','StratHUB','Documents into validated specifications.','Python · FastAPI · LLMs · JSON Schema'),('03','SYSTEMS','Argus / MERCURY','Events, state and deterministic replay.','Rust · WebSocket · Order books'),('04','INTEGRATION','AIBE','Task routing and agent coordination.','Python · FastAPI · SQLAlchemy')]
+    cards=[('01','STRUCTURE','EduRepo','Knowledge, versioned and traceable.','Next.js · TypeScript · PostgreSQL'),('02','INTELLIGENCE','StratHUB','Documents into validated specifications.','Python · FastAPI · LLMs · JSON Schema'),('03','SYSTEMS','Argus','Events, state and deterministic replay.','Rust · Order books · BLAKE3'),('04','INTEGRATION','AIBE','Task routing and agent coordination.','Python · FastAPI · SQLAlchemy'),('05','ORCHESTRATION','MERCURY','Feeds, risk and reconciliation.','Rust · Tokio · SQLite')]
     for n,label,name,desc,stack in cards:
         body=text(28,34,n+' / '+label,11,LIME,'mono')+text(28,83,name,28)+text(28,122,desc,13,MUTED)+text(28,162,stack,11,LIME,'mono')
         body+='<path d="M360 45H408V92M360 92L408 45" fill="none" stroke="#a3e635" stroke-width="1.2"/>'

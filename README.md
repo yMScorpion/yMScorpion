@@ -20,9 +20,13 @@ I’m studying **Economics at UFAL** and **Data Science at Instituto Infnet**. I
 
 **[StratHUB](https://github.com/yMScorpion/StratHUB)** — Turning information in PDFs into structured strategy specifications through segmentation, embeddings, LLM integration and JSON Schema / semantic validation. **Experimental project, in development.** [Case study ↗](https://isaacvaleriano.netlify.app/en/projects/strathub/)
 
-<a href="https://isaacvaleriano.netlify.app/en/projects/market-systems/"><img src="./assets/project-03.svg" width="460" alt="03 — Systems / Argus and MERCURY"></a>
+<a href="https://github.com/yMScorpion/Argus"><img src="./assets/project-03.svg" width="460" alt="03 — Systems / Argus"></a>
 
-**Argus / MERCURY** — Personal research into market-data systems: L2 order books, event normalization, checkpoints, deterministic replay, reconciliation and risk controls. Rust, WebSocket and property-based tests help make state transitions inspectable. **Private repositories; in development.** [Authorized project summary ↗](https://isaacvaleriano.netlify.app/en/projects/market-systems/)
+**[Argus](https://github.com/yMScorpion/Argus)** — Rust foundations for canonical events, L2 order books, JSONL/checkpoints, deterministic replay and observability. **176 local tests passed; public source, in development.** [Case study & evidence ↗](https://isaacvaleriano.netlify.app/en/projects/argus/)
+
+<a href="https://github.com/yMScorpion/MERCURY"><img src="./assets/project-05.svg" width="460" alt="05 — Orchestration / MERCURY"></a>
+
+**[MERCURY](https://github.com/yMScorpion/MERCURY)** — Multi-platform event normalization, net-cost spread evaluation, risk gates, dry-run execution and SQLite-backed reconciliation. **78 offline library tests passed; public source, in development.** These are engineering checks, not live trading performance. [Case study & evidence ↗](https://isaacvaleriano.netlify.app/en/projects/mercury/)
 
 <a href="https://isaacvaleriano.netlify.app/en/projects/aibe/"><img src="./assets/project-04.svg" width="460" alt="04 — Integration / AIBE"></a>
 
@@ -31,7 +35,7 @@ I’m studying **Economics at UFAL** and **Data Science at Instituto Infnet**. I
 <details>
 <summary>More experiments</summary>
 
-- **TTSapi** — An inference API based on StyleTTS2, preserving attribution to its authors. FastAPI, PyTorch, Docker and Prometheus. Private project.
+- **[TTSapi](https://github.com/yMScorpion/TTSapi)** — My FastAPI/infrastructure adaptation of StyleTTS2, preserving model-author attribution. Static verification confirms 9 explicit routes, 4 audio formats and 7 Grafana visualization panels; inference was not benchmarked. **Public source; upstream MIT and a noncommercial license for my original API additions.** [Case study & configuration preview ↗](https://isaacvaleriano.netlify.app/en/projects/ttsapi/)
 - **[RespiraBem](https://github.com/yMScorpion/RespiraBem)** — Flutter / Dart application with a local schedule, SQLite and weather integration.
 - More projects and authorized summaries: **[portfolio ↗](https://isaacvaleriano.netlify.app/#projects)**. Private code and internal data remain private.
 
