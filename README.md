@@ -18,15 +18,15 @@ I’m studying **Economics at UFAL** and **Data Science at Instituto Infnet**. I
 
 <a href="https://github.com/yMScorpion/StratHUB"><img src="./assets/project-02.svg" width="460" alt="02 — Intelligence / StratHUB"></a>
 
-**[StratHUB](https://github.com/yMScorpion/StratHUB)** — Turning information in PDFs into structured strategy specifications through segmentation, embeddings, LLM integration and JSON Schema / semantic validation. **Experimental project, in development.** [Case study ↗](https://isaacvaleriano.netlify.app/en/projects/applied-ai/)
+**[StratHUB](https://github.com/yMScorpion/StratHUB)** — Turning information in PDFs into structured strategy specifications through segmentation, embeddings, LLM integration and JSON Schema / semantic validation. **Experimental project, in development.** [Case study ↗](https://isaacvaleriano.netlify.app/en/projects/strathub/)
 
 <a href="https://isaacvaleriano.netlify.app/en/projects/market-systems/"><img src="./assets/project-03.svg" width="460" alt="03 — Systems / Argus and MERCURY"></a>
 
 **Argus / MERCURY** — Personal research into market-data systems: L2 order books, event normalization, checkpoints, deterministic replay, reconciliation and risk controls. Rust, WebSocket and property-based tests help make state transitions inspectable. **Private repositories; in development.** [Authorized project summary ↗](https://isaacvaleriano.netlify.app/en/projects/market-systems/)
 
-<a href="https://isaacvaleriano.netlify.app/en/projects/applied-ai/"><img src="./assets/project-04.svg" width="460" alt="04 — Integration / AIBE"></a>
+<a href="https://isaacvaleriano.netlify.app/en/projects/aibe/"><img src="./assets/project-04.svg" width="460" alt="04 — Integration / AIBE"></a>
 
-**AIBE** — An experimental agent registry and task-routing system with persistence and Python APIs. FastAPI, SQLAlchemy, PostgreSQL and Redis; unit and integration tests. **Private personal project.** [Related project summary ↗](https://isaacvaleriano.netlify.app/en/projects/applied-ai/)
+**AIBE** — An experimental agent registry and task-routing system with persistence and Python APIs. FastAPI, SQLAlchemy, PostgreSQL and Redis; unit and integration tests. **Private personal project.** [Related project summary ↗](https://isaacvaleriano.netlify.app/en/projects/aibe/)
 
 <details>
 <summary>More experiments</summary>
