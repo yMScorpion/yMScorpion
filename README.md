@@ -26,7 +26,7 @@ I’m studying **Economics at UFAL** and **Data Science at Instituto Infnet**. I
 
 <a href="https://github.com/yMScorpion/MERCURY"><img src="./assets/project-05.svg" width="460" alt="05 — Orchestration / MERCURY"></a>
 
-**[MERCURY](https://github.com/yMScorpion/MERCURY)** — Multi-platform event normalization, net-cost spread evaluation, risk gates, dry-run execution and SQLite-backed reconciliation. **78 offline library tests passed; public source, in development.** These are engineering checks, not live trading performance. [Case study & evidence ↗](https://isaacvaleriano.netlify.app/en/projects/mercury/)
+**[MERCURY](https://github.com/yMScorpion/MERCURY)** — Multi-platform event normalization, net-cost spread evaluation, risk gates, dry-run execution and SQLite-backed reconciliation. **79 offline library tests passed; public source, in development.** These are engineering checks, not live trading performance. [Case study & evidence ↗](https://isaacvaleriano.netlify.app/en/projects/mercury/)
 
 <a href="https://isaacvaleriano.netlify.app/en/projects/aibe/"><img src="./assets/project-04.svg" width="460" alt="04 — Integration / AIBE"></a>
 
