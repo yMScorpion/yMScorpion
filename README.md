@@ -76,7 +76,7 @@ Contributed to a REST API using **Go, Echo, GORM and PostgreSQL**. Work included
 
 <img src="./assets/construction-activity.svg" width="960" alt="Public GitHub contribution calendar for yMScorpion, refreshed daily. Contributions show activity; project descriptions above explain the work.">
 
-The calendar uses real public GitHub data. It is a record of activity, not a measure of engineering quality. [Source data](./data/contributions.json) · [How this artwork is generated](./DESIGN.md)
+The calendar uses real public GitHub data. [Source data](./data/contributions.json)
 
 ### Let’s build the next chapter.
 
